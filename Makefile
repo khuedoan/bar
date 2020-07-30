@@ -16,7 +16,7 @@ EXEC = lemonbar
 SRCS = lemonbar.c
 OBJS = ${SRCS:.c=.o}
 
-PREFIX?=/usr
+PREFIX?=/usr/local
 BINDIR=${PREFIX}/bin
 
 all: ${EXEC}
